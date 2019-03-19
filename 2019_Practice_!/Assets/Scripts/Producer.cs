@@ -14,7 +14,7 @@ public class Producer : MonoBehaviour
     public Dictionary<string, int> runProduction;
     public int pollutionMade;
 
-    public Dictionary<string, Dictionary<string, int>> runCosts = new Dictionary<string, Dictionary<string, int>> {
+    public Dictionary<string, Dictionary<string, int>> startCosts = new Dictionary<string, Dictionary<string, int>> {
         {"gold", new Dictionary<string, int> { 
             {"metal", 1},
             {"cotton", 2},
